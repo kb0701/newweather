@@ -6,10 +6,8 @@ import React from 'react';
 export default function App() {
   const router = useRouter(); 
 
-  const handleLogin = () => {
-    
-        router.push('welp');             
-   
+  const handleLogin = () => {  
+   router.push('doo');              
 };
 
   

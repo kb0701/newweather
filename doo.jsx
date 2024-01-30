@@ -3,7 +3,7 @@ import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { useRouter } from 'expo-router'; 
 import React from 'react';
 
-export default function welp() {
+export default function doo() {
   
 
   return (
