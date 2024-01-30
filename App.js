@@ -1,10 +1,24 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { useRouter } from 'expo-router'; 
+import React from 'react';
 
 export default function App() {
+  const router = useRouter(); 
+  const handleLogin = () => {
+    
+  router.push('login');             
+    
+};
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text> 
+        Login scREEN
+      </Text>
+
+      <TouchableOpacity onPress={handleLogin} style={styles.loginButton}>
+                    <Text style={styles.buttonText}>pRESS HERE PLS</Text>
+                </TouchableOpacity>
       <StatusBar style="auto" />
     </View>
   );
