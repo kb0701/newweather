@@ -24,7 +24,7 @@ Github Flow: https://docs.github.com/en/get-started/quickstart/github-flow
 Basically, there is our main branch "master"
 - From there, make your own branch to do some feature of code 
     - Name the branch your name. EX: If I was adding photos. Make a new branch with the ` git branch ebube`
-    - to switch between branches run git switch <branch you are switching to>
+    - to switch between branches run `git switch <branch you are switching to>`
 - Once you are finished, have commited, and pushed all your changes -> Open a Pull Request to merge your branch into 'main'
     - Pushing for the first time will likely require ` git push --set-upstream origin <branch>` to make sure the remote github origin makes a new branch for the one you made
 
