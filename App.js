@@ -1,9 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-
+import { useRouter } from 'expo-router'; 
 import React from 'react';
 
 export default function App() {
+  const router = useRouter(); 
+
+  const handleLogin = () => {
+    
+        router.push('welp');             
+   
+};
 
   
   return (
@@ -12,7 +19,7 @@ export default function App() {
         Login scREEN
       </Text>
 
-      <TouchableOpacity  style={styles.loginButton}>
+      <TouchableOpacity onPress={handleLogin} style={styles.loginButton}>
                     <Text style={styles.buttonText}>pRESS HERE PLS</Text>
                 </TouchableOpacity>
       <StatusBar style="auto" />

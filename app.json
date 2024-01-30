@@ -2,7 +2,7 @@
   "expo": {
     "name": "newweather",
     "slug": "newweather",
-    "scheme": "your-app-scheme",
+    "scheme": "newweather",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
